@@ -1,0 +1,18 @@
+[17:03:43] [INFO ] server_scripts:script.js:3: Hello, World! (You will see this line every time server resources reload)
+[17:03:43] [INFO ] Loaded script server_scripts:script.js in 0.002 s
+[17:03:43] [INFO ] Loaded 1/1 KubeJS server scripts in 0.012 s
+[17:03:43] [INFO ] Scripts loaded
+[17:03:43] [INFO ] Scanning recipes...
+[17:03:46] [WARN ] Failed to parse recipe 'ducky-periphs:duck_block_plastic[crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'techreborn:rubber'
+[17:03:46] [WARN ] Failed to parse recipe ducky-periphs:duck_block_plastic[crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'techreborn:rubber'
+[17:03:46] [WARN ] Failed to parse recipe 'yigd:death_scroll[minecraft:crafting_shaped]': {"item":"yigd:death_scroll","count":1} is not a valid result!
+[17:03:46] [WARN ] Failed to parse recipe 'createaddition:compat/ae2/charged_certus_quartz[createaddition:charging]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:charged_certus_quartz_crystal'
+[17:03:46] [WARN ] Failed to parse recipe createaddition:compat/ae2/charged_certus_quartz[createaddition:charging]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:charged_certus_quartz_crystal'
+[17:03:46] [WARN ] Failed to parse recipe 'ducky-periphs:focal_port_block[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:charged_amethyst'
+[17:03:46] [WARN ] Failed to parse recipe ducky-periphs:focal_port_block[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:charged_amethyst'
+[17:03:46] [WARN ] Failed to parse recipe 'create:mixing/mud_by_mixing[create:mixing]'! Falling back to vanilla: java.lang.StackOverflowError
+[17:03:46] [INFO ] Found 6435 recipes and 1 failed recipes in 140.8 ms
+[17:03:46] [INFO ] Posted recipe events in 8.262 ms
+[17:03:46] [INFO ] Modified & removed recipes in 57.48 ms
+[17:03:46] [INFO ] Added recipes in 3.085 ms
+[17:03:46] [INFO ] Added 1 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

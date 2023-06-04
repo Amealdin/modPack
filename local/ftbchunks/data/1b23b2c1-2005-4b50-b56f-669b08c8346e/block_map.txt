@@ -1,0 +1,3 @@
+#468304 minecraft:crafting_table
+#A00342 wiredredstone:redstone_assembler
+#7E2654 minecraft:sandstone

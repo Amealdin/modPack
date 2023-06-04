@@ -1,0 +1,997 @@
+[17:13:12] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.21
+[17:13:12] [ForkJoinPool-1-worker-2/WARN]: Mod createaddition uses the version 20230508b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '20230508b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:13:12] [ForkJoinPool-1-worker-12/WARN]: Mod create uses the version 0.5.0.i-1017+1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'i'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:13:12] [ForkJoinPool-1-worker-3/WARN]: Mod flywheel uses the version 0.6.8.a-4 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:13:12] [ForkJoinPool-1-worker-4/WARN]: Mod io_netty_netty-codec-http uses the version 4.1.77.Final which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Final'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:13:13] [ForkJoinPool-1-worker-1/WARN]: Mod naturalist uses the version 3.0.3a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:13:13] [ForkJoinPool-1-worker-8/WARN]: Mod netherdepthsupgrade uses the version fabric-3.0.0-1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:13:13] [ForkJoinPool-1-worker-12/WARN]: The mod "sync" contains invalid entries in its mod json:
+- Unsupported root entry "includes" at line 53 column 13
+[17:13:13] [ForkJoinPool-1-worker-7/WARN]: The mod "thonkutil-customization-v1" contains invalid entries in its mod json:
+- Unsupported root entry "disabled:mixins" at line 11 column 20
+[17:13:13] [ForkJoinPool-1-worker-7/WARN]: Mod imst uses the version 2.0.7a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '7a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:13:13] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 2.8.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Create: Steam 'n Rails' (railways) 1.2.6+fabric-mc1.19.2 recommends version 0.5.0.i-1000+1.19.2 of mod 'Create' (create), but only the wrong version is present: 0.5.0.i-1017+1.19.2!
+	 - You should install version 0.5.0.i-1000+1.19.2 of mod 'Create' (create) for the optimal experience.
+ - Mod 'Create Slice & Dice' (sliceanddice) 2.1.3 recommends any version of farmers-delight, which is missing!
+	 - You should install any version of farmers-delight for the optimal experience.
+[17:13:13] [main/INFO]: Loading 295 mods:
+	- advancednetherite 1.6.7-1.19.2
+	- advancementplaques 1.4.6
+	- almostunified 1.19.2-0.4.4
+	- ambientsounds 5.2.13
+	- amplifiednether 1.2
+	- appleskin 2.4.1+mc1.19
+	- architectury 6.5.85
+	- artifacts 7.1.1+fabric
+	   |-- expandability 6.0.0
+	   \-- step-height-entity-attribute 1.0.0
+	- balm-fabric 4.5.7
+	- barista 1.19-1.1.2-Fabric
+	- bclib 2.1.6
+	- bettercombat 1.7.1+1.19
+	- betterdungeons 1.19.2-Fabric-3.2.1
+	- betterfortresses 1.19.2-Fabric-1.0.5
+	   \-- org_reflections_reflections 0.10.2
+	- bettermineshafts 1.19.2-Fabric-3.2.0
+	- betterstrongholds 1.19.2-Fabric-3.2.0
+	- biomemusic 1.19.2-1.6
+	- bookshelf 16.3.20
+	- c2me 0.2.0+alpha.9.9
+	   |-- c2me-base 0.2.0+alpha.9.9
+	   |-- c2me-client-uncapvd 0.2.0+alpha.9.9
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.9.9
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.9.9
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.9.9
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.9.9
+	   |-- c2me-notickvd 0.2.0+alpha.9.9
+	   |-- c2me-opts-allocs 0.2.0+alpha.9.9
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.9.9
+	   |-- c2me-opts-chunkio 0.2.0+alpha.9.9
+	   |-- c2me-opts-math 0.2.0+alpha.9.9
+	   |-- c2me-opts-scheduling 0.2.0+alpha.9.9
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.9.9
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.9.9
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.9.9
+	   |-- c2me-server-utils 0.2.0+alpha.9.9
+	   |-- c2me-threading-chunkio 0.2.0+alpha.9.9
+	   |-- c2me-threading-lighting 0.2.0+alpha.9.9
+	   |-- c2me-threading-scheduling 0.2.0+alpha.9.9
+	   |-- c2me-threading-worldgen 0.2.0+alpha.9.9
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- cccbridge 1.4.1
+	- cloth-config 8.2.88
+	   \-- cloth-basic-math 0.6.1
+	- clumps 9.0.0+14
+	- collective 6.53
+	- comforts 6.0.4+1.19.2
+	   |-- cardinal-components-base 5.0.1
+	   |-- cardinal-components-entity 5.0.1
+	   \-- spectrelib 0.12.4+1.19.2
+	- computercraft 1.101.2
+	   |-- io_netty_netty-codec-http 4.1.77.Final
+	   \-- org_squiddev_cobalt 0.5.5
+	- configured 2.0.0
+	- controlling 10.0+7
+	- create 0.5.0.i-1017+1.19.2
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.8.a-4
+	   |-- milk 1.0.51
+	   |    \-- dripstone_fluid_lib 2.0.1
+	   |-- porting_lib 2.1.954+1.19.2
+	   |    |-- forge_tags 3.0
+	   |    |-- porting_lib_accessors 2.1.954+1.19.2
+	   |    |-- porting_lib_attributes 2.1.954+1.19.2
+	   |    |-- porting_lib_base 2.1.954+1.19.2
+	   |    |-- porting_lib_common 2.1.954+1.19.2
+	   |    |-- porting_lib_constants 2.1.954+1.19.2
+	   |    |-- porting_lib_entity 2.1.954+1.19.2
+	   |    |-- porting_lib_extensions 2.1.954+1.19.2
+	   |    |-- porting_lib_fake_players 2.1.954+1.19.2
+	   |    |-- porting_lib_lazy_registration 2.1.954+1.19.2
+	   |    |-- porting_lib_loot 2.1.954+1.19.2
+	   |    |-- porting_lib_model_generators 2.1.954+1.19.2
+	   |    |-- porting_lib_model_loader 2.1.954+1.19.2
+	   |    |-- porting_lib_models 2.1.954+1.19.2
+	   |    |-- porting_lib_networking 2.1.954+1.19.2
+	   |    |-- porting_lib_obj_loader 2.1.954+1.19.2
+	   |    |-- porting_lib_transfer 2.1.954+1.19.2
+	   |    \-- serialization_hooks 0.3.26
+	   |-- reach-entity-attributes 2.3.0
+	   \-- registrate-fabric 1.1.57-MC1.19.2
+	- createaddition 20230508b
+	   \-- team_reborn_energy 2.2.0
+	- createorigins 1.1.0+1.19.2
+	- creativecore 2.9.3
+	- customsplashscreen 1.2.0
+	- dankstorage 1.19.2-4.3
+	- darkpaintings 13.1.5
+	- debugify 2.8.0
+	- ducky-periphs 1.19.2-1.2.1
+	   |-- org_joml_joml 1.10.5
+	   \-- reach-entity-attributes 2.3.0
+	- elytraslot 6.1.1+1.19.2
+	- enchdesc 13.0.14
+	- enderore 1.19.2.2-1.2.3
+	   \-- omega-config 1.2.3-1.18.1
+	- enderscape 0.4.1-1.19.2
+	   \-- mm 2.3
+	- endgoblintraders 1.5.1
+	- everycomp 1.19.2-2.4.9a
+	- explorify-fabric 1.19-1.3.0
+	- extraorigins 1.19-2
+	- fabric-api 0.76.0+1.19.2
+	   |-- fabric-api-base 0.4.15+8f4e8eb390
+	   |-- fabric-api-lookup-api-v1 1.6.14+93d8cb8290
+	   |-- fabric-biome-api-v1 9.1.1+16f1e31390
+	   |-- fabric-block-api-v1 1.0.2+e415d50e90
+	   |-- fabric-blockrenderlayer-v1 1.1.25+cafc6e8e90
+	   |-- fabric-client-tags-api-v1 1.0.5+b35fea8390
+	   |-- fabric-command-api-v1 1.2.16+f71b366f90
+	   |-- fabric-command-api-v2 2.2.1+413cbbc790
+	   |-- fabric-commands-v0 0.2.33+df3654b390
+	   |-- fabric-containers-v0 0.1.41+df3654b390
+	   |-- fabric-content-registries-v0 3.5.2+7c6cd14d90
+	   |-- fabric-convention-tags-v1 1.3.0+4bc6e26290
+	   |-- fabric-crash-report-info-v1 0.2.8+aeb40ebe90
+	   |-- fabric-data-generation-api-v1 5.3.8+413cbbc790
+	   |-- fabric-dimensions-v1 2.1.35+0d0f210290
+	   |-- fabric-entity-events-v1 1.5.4+9244241690
+	   |-- fabric-events-interaction-v0 0.4.34+562bff6e90
+	   |-- fabric-events-lifecycle-v0 0.2.36+df3654b390
+	   |-- fabric-game-rule-api-v1 1.0.24+b6b6abb490
+	   |-- fabric-item-api-v1 1.6.6+b7d1888890
+	   |-- fabric-item-groups-v0 0.3.39+9244241690
+	   |-- fabric-key-binding-api-v1 1.0.25+5c4fce2890
+	   |-- fabric-keybindings-v0 0.2.23+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.2.4+1b46dc7890
+	   |-- fabric-loot-api-v2 1.1.13+83a8659290
+	   |-- fabric-loot-tables-v1 1.1.16+9e7660c690
+	   |-- fabric-message-api-v1 5.0.7+93d8cb8290
+	   |-- fabric-mining-level-api-v1 2.1.24+33fbc73890
+	   |-- fabric-models-v0 0.3.21+c6af733c90
+	   |-- fabric-networking-api-v1 1.2.11+10eb22f490
+	   |-- fabric-networking-v0 0.3.28+df3654b390
+	   |-- fabric-object-builder-api-v1 4.2.2+d8ef690890
+	   |-- fabric-particles-v1 1.0.14+4d0d570390
+	   |-- fabric-recipe-api-v1 1.0.1+413cbbc790
+	   |-- fabric-registry-sync-v0 0.9.32+9244241690
+	   |-- fabric-renderer-api-v1 1.2.1+1adbf27790
+	   |-- fabric-renderer-indigo 0.8.0+1adbf27790
+	   |-- fabric-renderer-registries-v1 3.2.24+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690
+	   |-- fabric-rendering-fluids-v1 3.0.11+4d0d570390
+	   |-- fabric-rendering-v0 1.1.27+df3654b390
+	   |-- fabric-rendering-v1 1.12.1+d8ef690890
+	   |-- fabric-resource-conditions-api-v1 2.1.2+aae9039d90
+	   |-- fabric-resource-loader-v0 0.8.4+edbdcddb90
+	   |-- fabric-screen-api-v1 1.0.32+4d0d570390
+	   |-- fabric-screen-handler-api-v1 1.3.7+1cc24b1b90
+	   |-- fabric-sound-api-v1 1.0.2+c4f28df590
+	   |-- fabric-textures-v0 1.0.24+aeb40ebe90
+	   |-- fabric-transfer-api-v1 2.1.6+413cbbc790
+	   \-- fabric-transitive-access-wideners-v1 1.3.3+08b73de490
+	- fabric-language-kotlin 1.9.4+kotlin.1.8.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.8.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.8.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.8.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.8.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.20.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.6.4
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.6.4
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.5.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.5.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.5.0
+	- fabricloader 0.14.21
+	- farmersdelight 1.19.2-1.3.9
+	- ferritecore 5.0.3
+	- forgeconfigapiport 4.2.11
+	- ftbchunks 1902.3.21-build.266
+	- ftblibrary 1902.3.19-build.214
+	- ftbteams 1902.2.13-build.100
+	- geckolib3 3.1.40
+	   \-- com_eliotlash_mclib_mclib 20
+	- go-fish 1.6.0-1.19.1
+	- goblintraders 1.5.2
+	- iceberg 1.0.46
+	- imst 2.0.7a
+	- indium 1.0.9+mc1.19.2
+	- inventorysorter 1.8.10-1.19
+	   \-- kyrptconfig 1.4.14-1.19
+	- jade 8.7.3
+	- java 17
+	- jepp 1.19.2-1.1.0
+	- kibe 1.9.11-BETA+1.19
+	   \-- playerabilitylib 1.6.0
+	- krypton 0.2.1
+	   \-- com_velocitypowered_velocity-native 3.1.2-SNAPSHOT
+	- kubejs 1902.6.0-build.142
+	- kubejs_create 1902.1.1-build.35
+	- lazydfu 0.1.3
+	- legendarytooltips 1.3.3
+	- lootr 0.4.26.65
+	- magistuarmory 7.11
+	- maxhealthfix 8.0.1
+	- mcwbridges 2.0.7
+	- mcwdoors 1.0.8
+	- mcwfences 1.0.7
+	- mcwfurnitures 3.1.0
+	- mcwlights 1.0.5
+	- mcwpaintings 1.0.4
+	- mcwpaths 1.0.2
+	- mcwroofs 2.2.3
+	- mcwtrpdoors 1.1.0
+	- mcwwindows 2.1.2
+	- medievalmusic 1.19-2.0
+	- memoryleakfix 1.0.0
+	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.6
+	- midnightlib 1.0.0
+	- minecraft 1.19.2
+	- mixin-conflict-helper 1.2.0
+	- moonlight 1.19.2-2.2.35
+	- mousetweaks 2.22
+	- naturalist 3.0.3a
+	- netherdepthsupgrade fabric-3.0.0-1.19.2
+	- nochatreports 1.19.2-v1.13.12
+	- nullscape 1.2.1
+	- origins 1.7.1
+	   |-- apoli 2.6.1
+	   |    |-- additionalentityattributes 1.0.0+1.19
+	   |    |-- calio 1.7.0
+	   |    |-- cardinal-components-base 5.0.1
+	   |    |-- cardinal-components-entity 5.0.1
+	   |    \-- playerabilitylib 1.6.0
+	   \-- reach-entity-attributes 2.3.0
+	- origins-classes 1.4.0
+	- origins-plus-plus 2.0.1
+	- pehkui 3.7.5+1.14.4-1.20
+	   \-- kanos_config 0.4.1+1.14.4-1.19.4
+	- player-animator 1.0.2
+	- plushies 1.2
+	- polymorph 0.46.1+1.19.2
+	   |-- cardinal-components-base 5.0.1
+	   |-- cardinal-components-block 5.0.1
+	   |-- cardinal-components-entity 5.0.1
+	   \-- cardinal-components-item 5.0.1
+	- prism 1.0.3
+	- railways 1.2.6+fabric-mc1.19.2
+	- realisticbees 3.3
+	- rhino 1902.2.2-build.268
+	- roughlyenoughitems 9.1.615
+	   \-- error_notifier 1.0.9
+	- shetiphiancore 1.3.4
+	- shroom_dealers 1.6
+	- simple-rpc 3.2.2
+	   \-- me_hypherionmc_simplerpc_simple-rpc-common 4.2.13
+	- simplehats 1.19.2-0.1.6
+	   |-- cardinal-components-base 5.0.1
+	   \-- cardinal-components-entity 5.0.1
+	- skinlayers 1.5.2-mc1.19.1
+	- sliceanddice 2.1.3
+	- sodium 0.4.4+build.18
+	- sound_physics_remastered 1.19.2-1.0.18
+	- spark 1.10.37
+	   \-- fabric-permissions-api-v0 0.1-SNAPSHOT
+	- starlight 1.1.1+fabric.ae22326
+	- sync 4.3
+	   |-- crowdin-translate 1.4+1.19-pre2
+	   |-- satin 1.9.0
+	   |-- smart-recipes 0.2.1+1.19
+	   \-- team_reborn_energy 2.2.0
+	- thonkutil 2.15.4+1.19
+	   |-- thonkutil-base 1.13.2+4a8c408a57
+	   |-- thonkutil-capes-v1 1.4.2+3eb2749857
+	   |-- thonkutil-coords-v1 1.1.2+8ff533c957
+	   |-- thonkutil-customization-v1 1.1.2+8ff533c957
+	   |-- thonkutil-legacy 1.1.2+5d4263f557
+	   |-- thonkutil-modchecker-v1 1.1.3+bd4b387957
+	   |-- thonkutil-potions-v0 1.5.2+8ff533c957
+	   |-- thonkutil-titlescreen-v1 1.2.2+8ff533c957
+	   \-- thonkutil-trades-v1 1.2.2+8ff533c957
+	- tipsmod 8.0.27
+	- toms_storage 1.5.6
+	- trinkets 3.4.2
+	- villagernames 5.2
+	- vinery 1.2.11
+	   \-- doapi 1.0.4
+	        |-- blue_endless_jankson 1.2.1
+	        \-- terraform-wood-api-v1 4.2.0
+	- voicechat 1.19.2-2.4.8
+	- waystones 11.4.0
+	- weaponmaster 3.0.2
+	- wiredredstone 0.4.17+1.19.2
+	   |-- graphlib 0.3.6+1.19.2
+	   |-- libmultipart_deps_container 0.8.2
+	   |    |-- libblockattributes_core 0.11.1
+	   |    |-- libmultipart 0.8.2
+	   |    |-- libmultipart_compat 0.8.2
+	   |    \-- libnetworkstack 0.7.1
+	   |-- lmp-compat 0.2.2+1.19
+	   \-- team_reborn_energy 2.2.0
+	- yet-another-config-lib 2.2.0-for-1.19.2
+	- yigd 1.4.9
+	- yungsapi 1.19.2-Fabric-3.8.9
+	   \-- org_javassist_javassist 3.28.0-GA
+	- zoomify 2.9.0
+	   |-- dev_isxander_settxi_settxi-core 2.10.5
+	   |-- dev_isxander_settxi_settxi-gui 2.10.5
+	   |-- dev_isxander_settxi_settxi-kotlinx-serialization 2.10.5
+	   \-- settxi-gui-yacl 2.10.5
+[17:13:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Allison%20Strine/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[17:13:13] [main/INFO]: Compatibility level set to JAVA_17
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[17:13:14] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.threading.scheduling.mixin
+[17:13:14] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[17:13:14] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[17:13:14] [main/WARN]: Reference map 'cccbridge-refmap.json' for cccbridge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:13:14] [main/INFO]: Preloading Debugify
+[17:13:14] [main/WARN]: Reference map 'doapi-fabric-refmap.json' for doapi.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:13:14] [main/WARN]: Reference map 'jepp-fabric-refmap.json' for jepp.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:13:14] [main/WARN]: Reference map 'jepp-common-refmap.json' for jepp-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:13:14] [main/WARN]: Reference map 'zmedievalmusic-fabric-refmap.json' for medievalmusic.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:13:14] [main/WARN]: [Satin] Sodium is present, custom block renders may not work
+[17:13:14] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 0 override(s) found
+[17:13:15] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[17:13:15] [main/WARN]: Force disabled MC-121772 because it only applies to OS: MAC
+[17:13:15] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[17:13:15] [main/WARN]: Force disabled MC-162253 because it's conflicting with: starlight
+[17:13:15] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+[17:13:15] [main/WARN]: Error loading class: at/petrak/hexcasting/api/block/circle/BlockEntityAbstractImpetus (java.lang.ClassNotFoundException: at/petrak/hexcasting/api/block/circle/BlockEntityAbstractImpetus)
+[17:13:15] [main/WARN]: Error loading class: at/petrak/hexcasting/api/block/circle/BlockEntityAbstractImpetus (java.lang.ClassNotFoundException: at/petrak/hexcasting/api/block/circle/BlockEntityAbstractImpetus)
+[17:13:15] [main/WARN]: Error loading class: at/petrak/hexcasting/common/blocks/entity/BlockEntityStoredPlayerImpetus (java.lang.ClassNotFoundException: at/petrak/hexcasting/common/blocks/entity/BlockEntityStoredPlayerImpetus)
+[17:13:15] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/gui/fabric/ScreenOverlayImplImpl (java.lang.ClassNotFoundException: me/shedaniel/rei/impl/client/gui/fabric/ScreenOverlayImplImpl)
+[17:13:15] [main/WARN]: @Mixin target me.shedaniel.rei.impl.client.gui.fabric.ScreenOverlayImplImpl was not found legendarytooltips.mixins.json:RoughlyEnoughItemsScreenOverlayImplImplMixin from mod legendarytooltips
+[17:13:15] [main/WARN]: Error loading class: com/terraformersmc/modmenu/event/ModMenuEventHandler (java.lang.ClassNotFoundException: com/terraformersmc/modmenu/event/ModMenuEventHandler)
+[17:13:15] [main/WARN]: @Mixin target com.terraformersmc.modmenu.event.ModMenuEventHandler was not found thonkutil-titlescreen-v1.mixins.json:ModMenuEventHandlerAccessor from mod thonkutil-titlescreen-v1
+[17:13:15] [main/WARN]: Error loading class: com/terraformersmc/modmenu/event/ModMenuEventHandler (java.lang.ClassNotFoundException: com/terraformersmc/modmenu/event/ModMenuEventHandler)
+[17:13:15] [main/WARN]: @Mixin target com.terraformersmc.modmenu.event.ModMenuEventHandler was not found thonkutil-titlescreen-v1.mixins.json:ModMenuMixin from mod thonkutil-titlescreen-v1
+[17:13:15] [main/WARN]: Error loading class: draylar/magna/api/MagnaTool (java.lang.ClassNotFoundException: draylar/magna/api/MagnaTool)
+[17:13:15] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
+[17:13:15] [main/WARN]: Error loading class: twilightforest/util/EntityUtil (java.lang.ClassNotFoundException: twilightforest/util/EntityUtil)
+[17:13:15] [main/INFO]: [MemoryLeakFix] Will be applying 4 memory leak fixes!
+[17:13:15] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, entityMemoriesLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[17:13:15] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[17:13:15] [main/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[17:13:16] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[17:13:17] [main/WARN]: Method overwrite conflict for getPlant in shetiphiancore.mixins.json:SPC_IPlantable_Adders$_BushBlock from mod shetiphiancore, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.BushBlockMixin. Skipping method.
+[17:13:18] [main/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.class_1657
+[17:13:18] [main/WARN]: Method overwrite conflict for getHotbarSlotPosition in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for getHotbarSlotRotation in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setHotbarSlotPosition in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setHotbarSlotRotation in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for getSlotAttachments in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setSlotAttachments in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for getMover in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setMover in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for getBlacklist in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setBlacklist in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for getWhitelist in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setWhitelist in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for getHotbarSlots in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setHotbarSlot in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for getToggleSlot in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setToggleSlot in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for getSelectedSlot in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: Method overwrite conflict for setSelectedSlot in weaponmaster.mixins.json:ClientPlayerMixin from mod weaponmaster, previously written by com.minecraftserverzone.weaponmaster.mixin.PlayerMixin. Skipping method.
+[17:13:18] [main/WARN]: @Final field field_6280:Ljava/util/Map; in vinery-common.mixins.json:LivingEntityMixin from mod vinery should be final
+[17:13:19] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[17:13:19] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[17:13:19] [main/INFO]: [bclib] Added Config bclib.recipes to auto sync (file hash)
+[17:13:19] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[17:13:19] [main/WARN]: Method overwrite conflict for getPlant in shetiphiancore.mixins.json:SPC_IPlantable_Adders$_CactusBlock from mod shetiphiancore, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.CactusBlockMixin. Skipping method.
+[17:13:19] [main/WARN]: Method overwrite conflict for getPlant in shetiphiancore.mixins.json:SPC_IPlantable_Adders$_SugarCaneBlock from mod shetiphiancore, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.SugarCaneBlockMixin. Skipping method.
+[17:13:19] [main/WARN]: Method overwrite conflict for getPlant in shetiphiancore.mixins.json:SPC_IPlantable_Adders$_BambooBlock from mod shetiphiancore, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.BambooBlockMixin. Skipping method.
+[17:13:19] [main/WARN]: Method overwrite conflict for setTranslation in flywheel.fabric.mixins.json:Matrix4fMixin from mod flywheel, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.Matrix4fMixin. Skipping method.
+[17:13:20] [main/INFO]: Mixing client.MixinLocalPlayer from nochatreports.mixins.json into net.minecraft.class_746
+[17:13:21] [main/INFO]: Building unoptimized datafixer
+[17:13:23] [main/INFO]: apoli.mixins.json:ItemSlotArgumentTypeAccessor from mod apoli->@Accessor[FIELD_GETTER]::getSlotNamesToSlotCommandId()Ljava/util/Map; should be static as its target is
+[17:13:23] [main/INFO]: creating Trinket AbilityRing for minecraft:mayfly
+[17:13:23] [main/INFO]: creating Trinket AbilityRing for kibe:magma_ability
+[17:13:23] [main/INFO]: creating Trinket AbilityRing for kibe:water_ability
+[17:13:23] [main/INFO]: Trying to read config file...
+[17:13:23] [main/INFO]: A config file was found, loading it..
+[17:13:23] [main/INFO]: Successfully loaded config file.
+[17:13:23] [Render thread/INFO]: Mixing client.MixinTitleScreen from nochatreports.mixins.json into net.minecraft.class_442
+[17:13:23] [Render thread/INFO]: Mixing client.MixinChatScreen from nochatreports.mixins.json into net.minecraft.class_408
+[17:13:23] [Render thread/INFO]: Renaming synthetic method lambda$onInit$4(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md34b892$nochatreports$lambda$onInit$4$0 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:13:23] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;)V to md34b892$nochatreports$lambda$onInit$3$1 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:13:23] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2(Lcom/aizistral/nochatreports/core/ServerSafetyLevel;Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md34b892$nochatreports$lambda$onInit$2$2 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:13:23] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;)V to md34b892$nochatreports$lambda$onInit$1$3 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:13:23] [Render thread/INFO]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/encryption/Encryptor;)V to md34b892$nochatreports$lambda$onBeforeMessage$0$4 in nochatreports.mixins.json:client.MixinChatScreen from mod nochatreports
+[17:13:24] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:13:24] [Render thread/INFO]: Setting user: MinisMinistry
+[17:13:24] [Render thread/INFO]: Mixing client.MixinToastComponent from nochatreports.mixins.json into net.minecraft.class_374
+[17:13:24] [Render thread/INFO]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.class_3244
+[17:13:24] [Render thread/INFO]: Apoli 2.6.1 has initialized. Ready to power up your game!
+[17:13:25] [Render thread/INFO]: Finished initialization
+[17:13:25] [Render thread/INFO]: Reflections took 72 ms to scan 1 urls, producing 1 keys and 3 values
+[17:13:25] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[17:13:25] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[17:13:25] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[17:13:25] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[17:13:25] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[17:13:25] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[17:13:25] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[17:13:25] [Render thread/INFO]: biomemusic mod initialized
+[17:13:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[17:13:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[17:13:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[17:13:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[17:13:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[17:13:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[17:13:25] [Render thread/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[17:13:25] [Render thread/INFO]: Loading Collective version 6.53.
+[17:13:26] [Render thread/INFO]: Loaded config: configured.client.toml
+[17:13:27] [Render thread/WARN]: Method overwrite conflict for getPixelRGBA in moonlight.mixins.json:TextureAtlasSpriteMixin from mod moonlight, previously written by io.github.fabricators_of_create.porting_lib.mixin.client.TextureAtlasSpriteMixin. Skipping method.
+[17:13:27] [Render thread/WARN]: Method overwrite conflict for getOffset in creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore, previously written by io.github.fabricators_of_create.porting_lib.mixin.client.VertexFormatMixin. Skipping method.
+[17:13:27] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17:13:27] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[17:13:27] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[17:13:27] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[17:13:27] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[17:13:28] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[17:13:28] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[17:13:28] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[17:13:28] [Render thread/INFO]: [STDOUT]: Create Crafts & Addition Initialized!
+[17:13:28] [Render thread/INFO]: Create addon mod [Create: Origins] is loading alongside Create [0.5i]!
+[17:13:28] [Render thread/INFO]: Enabled 76 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-12829, MC-14923, MC-22882, MC-26757, MC-30391, MC-31819, MC-46766, MC-55347, MC-69216, MC-72151, MC-79545, MC-80859, MC-84873, MC-88371, MC-89146, MC-90084, MC-90683, MC-93018, MC-93384, MC-100991, MC-108948, MC-111516, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121772, MC-121903, MC-122477, MC-122627, MC-123739, MC-124117, MC-127970, MC-129909, MC-132878, MC-135971, MC-135973, MC-140646, MC-143474, MC-145748, MC-147605, MC-151412, MC-155509, MC-159163, MC-160095, MC-162253, MC-165381, MC-165595, MC-176559, MC-179072, MC-183776, MC-183990, MC-193343, MC-197260, MC-199467, MC-200418, MC-206922, MC-214147, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-227169, MC-228976, MC-231097, MC-231743, MC-232869, MC-233042, MC-237493, MC-249059]
+[17:13:28] [Render thread/INFO]: Successfully Debugify'd your game!
+[17:13:28] [Render thread/ERROR]: No data fixer registered for vinery:mule
+[17:13:28] [Render thread/ERROR]: No data fixer registered for vinery:wandering_winemaker
+[17:13:28] [Render thread/ERROR]: No data fixer registered for vinery:chair
+[17:13:28] [Render thread/INFO]: Registering C2S receiver with id ducky-periphs:key_press_packet
+[17:13:28] [Render thread/INFO]: Registering C2S receiver with id ducky-periphs:key_up_packet
+[17:13:28] [Render thread/INFO]: Registering C2S receiver with id ducky-periphs:char_typed_packet
+[17:13:28] [Render thread/INFO]: Registering C2S receiver with id ducky-periphs:event_sent_packet
+[17:13:29] [Render thread/INFO]: [STDOUT]: Ender Ore Initialized
+[17:13:29] [Render thread/INFO]: Enderscape initialized!
+[17:13:29] [Render thread/INFO]: [STDOUT]: endgoblintraders:opal_sword_potion, null
+[17:13:29] [Render thread/INFO]: [STDOUT]: [End Goblin Traders] Registered Items
+[17:13:29] [Render thread/INFO]: Loaded config literal{Common Configs}
+[17:13:29] [Render thread/INFO]: ExpandAbility here, who dis?
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:request_map_data
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_all_chunks
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:login_data
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_chunk
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_general_data
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:player_death
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_visible_player_list
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:sync_tx
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:sync_rx
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:loaded_chunk_view
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:send_player_position
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbchunks:server_config_request
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:server_config_response
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbchunks:chunk_change_response
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:edit_nbt
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbteams:sync_teams
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbteams:sync_message_history
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbteams:open_gui
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbteams:open_my_team_gui
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbteams:update_settings
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbteams:update_settings_response
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbteams:send_message
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbteams:send_message_response
+[17:13:29] [Render thread/INFO]: Registering S2C receiver with id ftbteams:update_presence
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbteams:create_party
+[17:13:29] [Render thread/INFO]: Registering C2S receiver with id ftbteams:player_gui_operation
+[17:13:29] [Render thread/INFO]: Initializing GraphLib...
+[17:13:29] [Render thread/INFO]: GraphLib Initialized.
+[17:13:29] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[17:13:29] [Render thread/INFO]: Compression will use Java, encryption will use Java
+[17:13:29] [Render thread/INFO]: Looking for KubeJS plugins...
+[17:13:29] [Render thread/INFO]: Found plugin source kubejs
+[17:13:29] [Render thread/INFO]: Found plugin source almostunified
+[17:13:29] [Render thread/INFO]: Found plugin source kubejs_create
+[17:13:29] [Render thread/INFO]: Found plugin source ftbchunks
+[17:13:29] [Render thread/ERROR]: Failed to load plugin dev.ftb.mods.ftbchunks.integration.kubejs.FTBChunksKubeJSPlugin from source ftbchunks: java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.integration.kubejs.FTBChunksKubeJSPlugin
+[17:13:29] [Render thread/INFO]: Done in 22.07 ms
+[17:13:30] [Render thread/INFO]: Loaded common.properties
+[17:13:30] [Render thread/INFO]: Loading Rhino Minecraft remapper...
+[17:13:30] [Render thread/INFO]: Rhino properties loaded.
+[17:13:30] [Render thread/INFO]: Loading mappings for 1.19.2
+[17:13:30] [Render thread/INFO]: Done in 0.049 s
+[17:13:30] [Render thread/INFO]: Mixing client.MixinOptions from nochatreports.mixins.json into net.minecraft.class_315
+[17:13:30] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$1(Ljava/lang/Boolean;)V to md34b892$nochatreports$lambda$onlyShowSecureChat$1$0 in nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[17:13:30] [Render thread/INFO]: Renaming synthetic method lambda$onlyShowSecureChat$0(Lnet/minecraft/class_2561;Ljava/lang/Boolean;)Lnet/minecraft/class_2561; to md34b892$nochatreports$lambda$onlyShowSecureChat$0$1 in nochatreports.mixins.json:client.MixinOptions from mod nochatreports
+[17:13:30] [Render thread/INFO]: Mixing client.MixinServerData from nochatreports.mixins.json into net.minecraft.class_642
+[17:13:30] [Render thread/INFO]: Mixing client.MixinClientTelemetryManager from nochatreports.mixins.json into net.minecraft.class_6628
+[17:13:30] [Render thread/INFO]: Mixing client.MixinProfileKeyPairManager from nochatreports.mixins.json into net.minecraft.class_7434
+[17:13:30] [Render thread/INFO]: Mixing client.MixinChatListener from nochatreports.mixins.json into net.minecraft.class_7594
+[17:13:30] [Render thread/INFO]: startup_scripts:script.js:3: Hello, World! (You will only see this line once in console, during startup)
+[17:13:30] [Render thread/INFO]: Loaded script startup_scripts:script.js in 0.076 s
+[17:13:30] [Render thread/INFO]: Loaded 1/1 KubeJS startup scripts in 0.533 s
+[17:13:30] [Render thread/INFO]: client_scripts:script.js:3: Hello, World! (You will see this line every time client resources reload)
+[17:13:30] [Render thread/ERROR]: ! #5: Error loading KubeJS script: client_scripts:script.js': ReferenceError: "JEIEvents" is not defined. (client_scripts:script.js#5)
+[17:13:30] [Render thread/INFO]: Loaded 0/1 KubeJS client scripts in 0.011 s
+[17:13:30] [Render thread/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
+[17:13:30] [Render thread/INFO]: Registering S2C receiver with id kubejs:send_data_from_server
+[17:13:30] [Render thread/INFO]: Registering S2C receiver with id kubejs:paint
+[17:13:30] [Render thread/INFO]: Registering S2C receiver with id kubejs:add_stage
+[17:13:30] [Render thread/INFO]: Registering S2C receiver with id kubejs:remove_stage
+[17:13:30] [Render thread/INFO]: Registering S2C receiver with id kubejs:sync_stages
+[17:13:30] [Render thread/INFO]: Registering C2S receiver with id kubejs:first_click
+[17:13:30] [Render thread/INFO]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.class_2797
+[17:13:30] [Render thread/INFO]: Mixing client.MixinClientboundHelloPacket from nochatreports.mixins.json into net.minecraft.class_2905
+[17:13:30] [Render thread/INFO]: LMPCompat Loading...
+[17:13:30] [Render thread/INFO]: LMPCompat Loading Create-LMP compatibility
+[17:13:30] [Render thread/INFO]: Lootr is installed, loading now! Thanks for installing! <3
+[17:13:31] [Render thread/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[17:13:31] [Render thread/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[17:13:31] [Render thread/INFO]: Registering S2C receiver with id magistuarmory:packet_bc_or_ef_installed
+[17:13:31] [Render thread/INFO]: Loaded maxhealthfix for Fabric.
+[17:13:31] [Render thread/INFO]: Registering ModBlocks for mcwfences
+[17:13:31] [Render thread/INFO]: Registering Paintings for mcwpaintings
+[17:13:31] [Render thread/INFO]: Registering ModBlocks for mcwpaths
+[17:13:31] [Render thread/INFO]: Registering ModBlocks for mcwwindows
+[17:13:31] [Render thread/INFO]: Registering Mod Items for mcwwindows
+[17:13:31] [Render thread/INFO]: Definitely not up to no good
+[17:13:31] [Render thread/INFO]: Registering Items for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering Blocks for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering Entity Types for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering Effects for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering Potions for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering Enchantments for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering Particles for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering Features for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering ConfiguredFeatures for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering PlacedFeatures for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Registering Structures for netherdepthsupgrade
+[17:13:31] [Render thread/INFO]: Setting up compat for Farmers Delight
+[17:13:31] [Render thread/INFO]: KONNICHIWA ZA WARUDO!
+[17:13:31] [Render thread/INFO]: Default JVM text encoding is: windows-1252
+[17:13:31] [Render thread/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[17:13:31] [Render thread/INFO]: Reading config file NoChatReports/NCR-Client.json...
+[17:13:31] [Render thread/INFO]: Reading config file NoChatReports/NCR-ServerWhitelist.json...
+[17:13:31] [Render thread/INFO]: Reading config file NoChatReports/NCR-Encryption.json...
+[17:13:31] [Render thread/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[17:13:31] [Render thread/INFO]: Writing config file NoChatReports/NCR-Client.json...
+[17:13:31] [Render thread/INFO]: Writing config file NoChatReports/NCR-ServerWhitelist.json...
+[17:13:31] [Render thread/INFO]: Writing config file NoChatReports/NCR-Encryption.json...
+[17:13:31] [Render thread/INFO]: Origins 1.7.1 is initializing. Have fun!
+[17:13:32] [Render thread/INFO]: [REI] Config loaded
+[17:13:32] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[17:13:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider WiredRedstoneCommonPlugin [wiredredstone] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider almostunified.roughlyenoughitems [almostunified] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [artifacts] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider create:rei_plugin [create] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider CreateAdditionREI [createaddition] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [ducky-periphs] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider FarmersDelightModREI [farmersdelight] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider REIIntegration [ftblibrary] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider JeppReiPlugin [jepp] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider KubeJSREIPlugin [kubejs] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [toms_storage] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider VineryReiClientPlugin [vinery] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider RoughlyEnoughItemsIntegration [waystones] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider WiredRedstoneClientPlugin [wiredredstone] for REIPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider WiredRedstoneCommonPlugin [wiredredstone] for REIServerPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[17:13:32] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[17:13:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[17:13:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[17:13:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[17:13:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[17:13:32] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[17:13:32] [Render thread/ERROR]: No data fixer registered for shetiphiancore:gui_item
+[17:13:32] [Render thread/INFO]: Initializing ShroomDealersMod
+[17:13:32] [Render thread/INFO]: Loaded 207 hat entries from simplehats.json
+[17:13:33] [Render thread/ERROR]: No data fixer registered for hatdisplay
+[17:13:33] [Render thread/INFO]: Generated 207 hat items from hat entries.
+[17:13:33] [Render thread/INFO]: Reloading config
+[17:13:33] [Render thread/INFO]: Reloading reverb parameters
+[17:13:33] [Render thread/INFO]: [STDOUT]: thonkutil-capes-v1 Init
+[17:13:33] [Render thread/INFO]: Config loaded
+[17:13:33] [Render thread/INFO]: Tom's Storage Setup starting
+[17:13:33] [Render thread/INFO]: Compatibility version 17
+[17:13:33] [Render thread/INFO]: Loading plugins
+[17:13:33] [Render thread/INFO]: Loaded 1 plugin(s)
+[17:13:33] [Render thread/INFO]: Initializing plugins
+[17:13:33] [Render thread/INFO]: Initializing Simple Voice Chat integration
+[17:13:33] [Render thread/INFO]: Initialized 1 plugin(s)
+[17:13:33] [Render thread/INFO]: Registering events for sound_physics_remastered
+[17:13:33] [Render thread/INFO]: [STDOUT]: All 86 have been set properly
+[17:13:33] [Render thread/INFO]: Initialize YDM's WeaponMaster Mod!
+[17:13:33] [Render thread/INFO]: [Wired Redstone] [v0.4.17+1.19.2] Initializing...
+[17:13:33] [Render thread/INFO]: [Wired Redstone] Loading common config...
+[17:13:33] [Render thread/INFO]: [Wired Redstone] Synchronization will happen during LOGIN phase.
+[17:13:33] [Render thread/INFO]: [Wired Redstone] Enabling Computer Craft integration!
+[17:13:33] [Render thread/INFO]: [Wired Redstone] Enabling Create compatibility!
+[17:13:33] [Render thread/INFO]: [Wired Redstone] Initialized.
+[17:13:33] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[17:13:33] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[17:13:34] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[17:13:34] [Render thread/INFO]: Creating Barista directory :: C:\Users\Allison Strine\curseforge\minecraft\Instances\Amealdin\config\barista
+[17:13:34] [Render thread/INFO]: Creating Barista directory :: C:\Users\Allison Strine\curseforge\minecraft\Instances\Amealdin\config\barista\icon
+[17:13:34] [Render thread/INFO]: Checking if icon exists :: C:\Users\Allison Strine\curseforge\minecraft\Instances\Amealdin\config\barista\icon\icon.png
+[17:13:34] [Render thread/INFO]: Reading Barista bar config JSON file
+[17:13:34] [Thread-8/INFO]: [bclib] Received Version Info for minecraft=1.19.2, loader=fabric
+[17:13:34] [Thread-8/INFO]: [bclib]  - bclib:2.1.6
+[17:13:34] [Render thread/INFO]: Successfully loaded config provider: com.mrcrayfish.configured.impl.simple.SimpleConfigProvider
+[17:13:34] [Render thread/INFO]: Successfully loaded config provider: net.minecraftforge.configured.ForgeConfigProvider
+[17:13:34] [Render thread/INFO]: Loading Description Cache
+[17:13:34] [Render thread/INFO]: Loaded config file.
+[17:13:34] [Render thread/INFO]: Saved config file.
+[17:13:34] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[17:13:34] [Render thread/INFO]: No shaders mod detected.
+[17:13:34] [Render thread/INFO]: Krypton is now accelerating your Minecraft client's networking stack ?
+[17:13:34] [Render thread/INFO]: Note that Krypton is most effective on servers, not the client.
+[17:13:34] [Render thread/INFO]: Initialized block sets in 7ms
+[17:13:34] [Render thread/INFO]: Loaded config literal{Wood Types Configs}
+[17:13:34] [Render thread/INFO]: Registering Compat Wood Blocks
+[17:13:34] [Render thread/INFO]: Registering Compat Leaves Blocks
+[17:13:34] [Render thread/INFO]: Registered 243 compat blocks making up 5.74% of total blocks registered
+[17:13:34] [Render thread/INFO]: Initialized color sets in 28ms
+[17:13:34] [Render thread/INFO]: Initialized color sets in 20ms
+[17:13:34] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[17:13:34] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[17:13:34] [Render thread/INFO]: Mixing client.MixinJoinMultiplayerScreen from nochatreports.mixins.json into net.minecraft.class_500
+[17:13:34] [Render thread/INFO]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md34b892$nochatreports$lambda$onInit$3$0 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[17:13:34] [Render thread/INFO]: Renaming synthetic method lambda$onInit$2(Lnet/minecraft/class_4185;)V to md34b892$nochatreports$lambda$onInit$2$1 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[17:13:34] [Render thread/INFO]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/class_4185;Lnet/minecraft/class_4587;II)V to md34b892$nochatreports$lambda$onInit$1$2 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[17:13:34] [Render thread/INFO]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/class_4185;)V to md34b892$nochatreports$lambda$onInit$0$3 in nochatreports.mixins.json:client.MixinJoinMultiplayerScreen from mod nochatreports
+[17:13:34] [Render thread/INFO]: Mixing client.AccessorDisconnectedScreen from nochatreports.mixins.json into net.minecraft.class_419
+[17:13:34] [Render thread/INFO]: Client initialization...
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider almostunified.roughlyenoughitems [almostunified] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider REITooltipPlugin [appleskin] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [artifacts] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider create:rei_plugin [create] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider CreateAdditionREI [createaddition] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [ducky-periphs] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider FarmersDelightModREI [farmersdelight] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider REIIntegration [ftblibrary] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider JeppReiPlugin [jepp] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider KubeJSREIPlugin [kubejs] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider REIPlugin [toms_storage] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider VineryReiClientPlugin [vinery] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider RoughlyEnoughItemsIntegration [waystones] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: [REI] Registered plugin provider WiredRedstoneClientPlugin [wiredredstone] for REIClientPlugin
+[17:13:35] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[17:13:35] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[17:13:35] [Render thread/INFO]: Loaded config file.
+[17:13:35] [Render thread/INFO]: Saved config file.
+[17:13:35] [Render thread/INFO]: Mixing client.MixinConnectScreen from nochatreports.mixins.json into net.minecraft.class_412
+[17:13:35] [Render thread/INFO]: Using Cloth Config GUI
+[17:13:35] [Render thread/INFO]: Loading Opus
+[17:13:35] [Render thread/INFO]: Mixing client.MixinChatComponent from nochatreports.mixins.json into net.minecraft.class_338
+[17:13:35] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$1()V to md34b892$nochatreports$lambda$modifyGUIMessage$1$0 in nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[17:13:35] [Render thread/INFO]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/class_5348;Lnet/minecraft/class_2561;)V to md34b892$nochatreports$lambda$modifyGUIMessage$0$1 in nochatreports.mixins.json:client.MixinChatComponent from mod nochatreports
+[17:13:35] [Render thread/INFO]: Mixing client.MixinGuiMessageTagIcon from nochatreports.mixins.json into net.minecraft.class_7591$class_7592
+[17:13:35] [Render thread/INFO]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/class_7591$class_7592; to create$nochatreports_$md$34b892$0 in nochatreports.mixins.json:client.MixinGuiMessageTagIcon from mod nochatreports
+[17:13:36] [Render thread/INFO]: Registered simplehats resource folder.
+[17:13:36] [Render thread/INFO]: Loading config file from C:\Users\Allison Strine\curseforge\minecraft\Instances\Amealdin\config\simple-rpc\simple-rpc.toml
+[17:13:36] [Render thread/INFO]: Registered simple-rpc.toml successfully!
+[17:13:36] [Render thread/INFO]: Loading config file from C:\Users\Allison Strine\curseforge\minecraft\Instances\Amealdin\config\simple-rpc\server-entries.toml
+[17:13:36] [Render thread/INFO]: Registered server-entries.toml successfully!
+[17:13:36] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[17:13:36] [Render thread/INFO]: Loaded client.properties
+[17:13:36] [Render thread/WARN]: Couldn't get pack info for: net.minecraft.class_3266: 'pack.mcmeta' in ResourcePack 'C:\Users\Allison Strine\curseforge\minecraft\Instances\Amealdin\resourcepacks\Naturalist Old Models.zip'
+[17:13:36] [Render thread/INFO]: Registered simplehats resource folder.
+[17:13:37] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Additionalentityattributes, Advanced Netherite, Advancement Plaques, AlmostUnified, Ambient Sounds (Fabric), Apoli, AppleSkin, Artifacts, FPS Monitor, BCLib, Better Combat, YUNG's Better Dungeons, YUNG's Better Nether Fortresses, YUNG's Better Mineshafts, YUNG's Better Strongholds, Biome Music Mod, Bookshelf, Concurrent Chunk Management Engine, Calio, Cardinal Components API (base), Cardinal Components API (blocks), Cardinal Components API (entities), Cardinal Components API (items), CC:C Bridge, Cloth Config v8, Clumps, Collective, Comforts, CC: Restitched, Configured, Controlling For Fabric, Create, Create Crafts & Additions, Create: Origins, CreativeCore (Fabric), Custom Splash Screen, Dank Storage, DarkPaintings, Debugify, Lets Do Api, Dripstone Fluid Lib, Ducky Peripherals, EnchantmentDescriptions, Ender Ore, Enderscape, End Goblin Traders, Every Compat, Extra Origins, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Block API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Language Kotlin, Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Recipe API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Sound API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Farmer's Delight, Flywheel, Porting Lib Tags, Forge Config API Port, FTB Chunks, FTB Library, FTB Teams, Geckolib, Go Fish, Goblin Traders, Graph Lib, Indium, Inventory Sorter, Jade, Just Enough Painting Previews, Kanos Config, Kibe, Krypton, KubeJS, Kyrpt Config, LazyDFU, Legendary Tooltips, LibBlockAttributes (Core), LibMultiPart, LibMultiPart (Mod Compatibility), LibMultiPart (Dependency Container), Lib Network Stack, LMP Compat, Lootr, Epic Knights Mod, Macaw's Bridges, Macaw's Doors, Macaw's Fences and Walls, Macaw's Furniture, Macaw's Lights and Lamps, Macaw's Paintings, Macaw's Paths and Pavings, Macaw's Roofs, Macaw's Trapdoors, Macaw's Windows, Medieval Music Mod, MidnightLib, Milk Lib, Manningham Mills, Moonlight, Naturalist, Nether Depths Upgrade, No Chat Reports, Nullscape, OmegaConfig, Origins, Origins: Classes, Origins++, Pehkui, Pal, Plushie Mod, Polymorph, Porting Lib, Porting Lib Accessors, Porting Lib Attributes, Porting Lib Base, Porting Lib Common, Porting Lib Constants, Porting Lib Entity, Porting Lib Extensions, Porting Lib Fake Players, Porting Lib Lazy Register, Porting Lib Loot, Porting Lib Model Generators, Porting Lib Model Loader, Porting Lib Models, Porting Lib Networking, Porting Lib Obj Loader, Porting Lib Transfer, Create: Steam 'n Rails, Reach Entity Attributes, Realistic Bees, Registrate for Fabric, Roughly Enough Items, Satin, Serialization Hooks, ShetiPhianCore, Shroom Dealers!, Simple RPC, SimpleHats, 3d Skin Layers, Create Slice & Dice, Smart Recipes, Sodium, Sound Physics Remastered, spark, Starlight, Step Height Entity Attribute, Sync (Fabric), Energy, Terraform Wood API (v1), ThonkUtil, ThonkUtil Base, ThonkUtil Capes (v1), ThonkUtil Coords (v1), ThonkUtil Customization (v1), ThonkUtil Legacy, ThonkUtil ModChecker (v1), ThonkUtil Potions (v0), ThonkUtil TitleScreen (v1), ThonkUtil Trades (v1), Tips, Tom's Simple Storage Mod, Trinkets, Vinery, Simple Voice Chat, Waystones, YDM's Weapon Master, Wired Redstone, YetAnotherConfigLib, You're in Grave Danger, Zoomify), Everycomp Generated Pack, simplehats_hatdl.zip, KubeJS Resource Pack [assets]
+[17:13:37] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Everycomp Generated Pack in: 273 ms
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [pool-8-thread-1/INFO]: Connected and Ready!
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Render thread/INFO]: This line is printed by the mod mixin!
+[17:13:37] [Render thread/INFO]: This line is printed by the mod mixin!
+[17:13:37] [Render thread/INFO]: This line is printed by the mod mixin!
+[17:13:37] [Render thread/INFO]: This line is printed by the mod mixin!
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: java.lang.reflect.InvocationTargetException
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.createFunction(MathBuilder.java:444)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:266)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:228)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseOneLine(MolangParser.java:216)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseExpression(MolangParser.java:174)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseJson(MolangParser.java:154)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.parseExpression(JsonKeyFrameUtils.java:179)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJson(JsonKeyFrameUtils.java:57)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJsonToRotationKeyFrames(JsonKeyFrameUtils.java:173)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonAnimationUtils.deserializeJsonToAnimation(JsonAnimationUtils.java:278)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.file.AnimationFileLoader.loadAllAnimations(AnimationFileLoader.java:32)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$reload$0(GeckoLibCache.java:73)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:91)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: Caused by: java.lang.Exception: Function 'null' requires at least 3 arguments. 1 are given!
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.functions.Function.<init>(Function.java:20)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.functions.utility.Lerp.<init>(Lerp.java:9)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	... 26 more
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.ArrayList$SubList.get(ArrayList.java:1149)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:306)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:282)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.createFunction(MathBuilder.java:439)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:266)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:283)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:228)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseOneLine(MolangParser.java:216)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseExpression(MolangParser.java:174)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseJson(MolangParser.java:154)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.parseExpression(JsonKeyFrameUtils.java:179)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJson(JsonKeyFrameUtils.java:57)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJsonToRotationKeyFrames(JsonKeyFrameUtils.java:173)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonAnimationUtils.deserializeJsonToAnimation(JsonAnimationUtils.java:278)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.file.AnimationFileLoader.loadAllAnimations(AnimationFileLoader.java:32)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$reload$0(GeckoLibCache.java:73)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:91)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.ArrayList$SubList.get(ArrayList.java:1149)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:306)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:282)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.createFunction(MathBuilder.java:439)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:266)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:308)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.shadowed.eliotlash.mclib.math.MathBuilder.parseSymbols(MathBuilder.java:283)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseSymbolsMolang(MolangParser.java:228)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseOneLine(MolangParser.java:216)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseExpression(MolangParser.java:174)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.core.molang.MolangParser.parseJson(MolangParser.java:154)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.parseExpression(JsonKeyFrameUtils.java:179)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJson(JsonKeyFrameUtils.java:57)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonKeyFrameUtils.convertJsonToRotationKeyFrames(JsonKeyFrameUtils.java:173)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.util.json.JsonAnimationUtils.deserializeJsonToAnimation(JsonAnimationUtils.java:278)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.file.AnimationFileLoader.loadAllAnimations(AnimationFileLoader.java:32)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$reload$0(GeckoLibCache.java:73)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at software.bernie.geckolib3.resource.GeckoLibCache.lambda$loadResources$5(GeckoLibCache.java:91)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[17:13:37] [Worker-Main-5/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[17:13:38] [Render thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
+[17:13:38] [Render thread/INFO]: Mixing client.MixinGuiMessageTag from nochatreports.mixins.json into net.minecraft.class_7591
+[17:13:38] [Render thread/INFO]: Mixing client.MixinOnlineServerEntry from nochatreports.mixins.json into net.minecraft.class_4267$class_4270
+[17:13:38] [Render thread/INFO]: Renaming synthetic method lambda$onRender$0()Ljava/util/ArrayList; to md34b892$nochatreports$lambda$onRender$0$0 in nochatreports.mixins.json:client.MixinOnlineServerEntry from mod nochatreports
+[17:13:38] [Render thread/INFO]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.class_2926
+[17:13:38] [Render thread/INFO]: Mixing client.MixinPlayerEntry from nochatreports.mixins.json into net.minecraft.class_5519
+[17:13:38] [Render thread/INFO]: Renaming synthetic method lambda$onConstructed$1(Lnet/minecraft/class_4185;)V to md34b892$nochatreports$lambda$onConstructed$1$0 in nochatreports.mixins.json:client.MixinPlayerEntry from mod nochatreports
+[17:13:38] [Render thread/INFO]: Renaming synthetic method lambda$onConstructed$0(Lnet/minecraft/class_4185;)V to md34b892$nochatreports$lambda$onConstructed$0$1 in nochatreports.mixins.json:client.MixinPlayerEntry from mod nochatreports
+[17:13:38] [Render thread/INFO]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.class_3324
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:composite
+[17:13:39] [Render thread/INFO]: Mixing client.MixinRealmsConnect from nochatreports.mixins.json into net.minecraft.class_4902
+[17:13:39] [Worker-Main-10/ERROR]: Unknown model loader: forge:composite
+[17:13:39] [Render thread/INFO]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.class_2926$class_2929
+[17:13:39] [Render thread/WARN]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net/caffeinemc/sodium/config/user/UserConfigCategories)
+[17:13:39] [Render thread/INFO]: Mixing client.MixinChatOptionsScreen from nochatreports.mixins.json into net.minecraft.class_404
+[17:13:39] [Worker-Main-10/WARN]: Exception evaluating model definition: 'ducky-periphs:conjured_ducky_block#'
+java.lang.RuntimeException: Unknown property 'facing' on 'Block{ducky-periphs:conjured_ducky_block}'
+	at malte0811.ferritecore.impl.KeyValueConditionImpl.getPredicate(KeyValueConditionImpl.java:31) ~[ferritecore-5.0.3-fabric.jar:?]
+	at net.minecraft.class_818.getPredicate(class_818.java:537) ~[client-intermediary.jar:?]
+	at net.minecraft.class_819.method_3530(class_819.java:43) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1088$class_4455.method_21610(class_1088.java:561) ~[client-intermediary.jar:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraft.class_1088$class_4455.method_21607(class_1088.java:563) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1088.method_21599(class_1088.java:386) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1088.method_21604(class_1088.java:422) ~[client-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_1088.method_4715(class_1088.java:413) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1088.method_4726(class_1088.java:320) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1088.method_4727(class_1088.java:453) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1088.method_4716(class_1088.java:201) ~[client-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.0.1-jre.jar:?]
+	at net.minecraft.class_1088.<init>(class_1088.java:201) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1092.method_18178(class_1092.java:52) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1092.method_18789(class_1092.java:19) ~[client-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[17:13:39] [Render thread/INFO]: Mixing client.MixinServerStatusPinger$1 from nochatreports.mixins.json into net.minecraft.class_644$1
+[17:13:39] [Render thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
+[17:13:39] [Render thread/INFO]: Start loading plugin from Jade
+[17:13:39] [Render thread/INFO]: Start loading plugin from Jade
+[17:13:40] [Render thread/INFO]: Start loading plugin from Jade
+[17:13:40] [Render thread/INFO]: Start loading plugin from Waystones
+[17:13:40] [Render thread/INFO]: [STDOUT]: (MidnightLib) Player hats successfully loaded!
+[17:13:40] [Render thread/INFO]: Loaded AmbientEngine 'basic' v2.1.5. 11 dimension(s), 8 features, 9 groups, 31 regions, 57 sounds, 4 solids and 2 biome types
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/WARN]: Unable to load model: 'voidtotem:item/totem_of_void_undying' referenced from: endgoblintraders:durability_void_totem#inventory: java.io.FileNotFoundException: voidtotem:models/item/totem_of_void_undying.json
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:41] [Worker-Main-10/WARN]: Unable to load model: 'endgoblintraders:mystery_item#inventory' referenced from: endgoblintraders:mystery_item#inventory: java.io.FileNotFoundException: endgoblintraders:models/item/mystery_item.json
+[17:13:41] [Worker-Main-10/ERROR]: Unknown model loader: forge:obj
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_full_flipped_down
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_full_down
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/track_casing/cr_o
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_flipped_down
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_full
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_flipped
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_down
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:block/semaphore/block_full_flipped
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:item/semaphore
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missing in railways:item/dev_caps/neoncitydrifter
+[17:13:44] [Worker-Main-10/WARN]: Unable to resolve texture reference: #missingno in endgoblintraders:item/durability_void_totem
+[17:13:44] [Worker-Main-5/ERROR]: Using missing texture, file minecraft:textures/track_diag2_outlines/track_diag2_outline.xcf_left_center.png not found
+[17:13:44] [Worker-Main-9/ERROR]: Using missing texture, file endgoblintraders:textures/item/enchanted_golden_carrot.png not found
+[17:13:44] [Worker-Main-9/ERROR]: Using missing texture, file minecraft:textures/track_diag2_outlines/track_diag2_outline.xcf_center_top.png not found
+[17:13:44] [Worker-Main-11/ERROR]: Using missing texture, file minecraft:textures/track_diag2_outlines/track_diag2_outline.xcf_right_top.png not found
+[17:13:44] [Worker-Main-11/ERROR]: Using missing texture, file minecraft:textures/track_diag2_outlines/track_diag2_outline.xcf_left_bottom.png not found
+[17:13:44] [Worker-Main-10/WARN]: Texture ducky-periphs:block/keyboard/keyzones/mid_side_keys with size 16x8 limits mip level from 4 to 3
+[17:13:44] [Worker-Main-10/WARN]: Texture netherdepthsupgrade:block/farmersdelight_compat/nether_rice_roll_medley with size 22x16 limits mip level from 3 to 1
+[17:13:44] [Worker-Main-10/WARN]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[17:13:45] [Worker-Main-2/WARN]: Unused frames in sprite gofish:item/galaxy_starfish: [5, 6, 7]
+[17:13:45] [Worker-Main-8/ERROR]: Using missing texture, file magistuarmory:textures/entity/heatershield/ducky.png not found
+[17:13:45] [Worker-Main-15/ERROR]: Using missing texture, file magistuarmory:textures/entity/roundshield/ducky.png not found
+[17:13:45] [Worker-Main-5/ERROR]: Using missing texture, file magistuarmory:textures/entity/kiteshield/ducky.png not found
+[17:13:45] [Worker-Main-15/ERROR]: Using missing texture, file magistuarmory:textures/entity/pavese/ducky.png not found
+[17:13:45] [Worker-Main-15/ERROR]: Using missing texture, file magistuarmory:textures/entity/ellipticalshield/ducky.png not found
+[17:13:45] [Worker-Main-15/ERROR]: Using missing texture, file magistuarmory:textures/entity/tartsche/ducky.png not found
+[17:13:45] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[17:13:45] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17:13:45] [Render thread/WARN]: Missing sound for event: naturalist:rubber_ducky_death
+[17:13:45] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on FxSound Speakers (FxSound Audio Enhancer)
+[17:13:45] [Render thread/INFO]: Initializing Sound Physics
+[17:13:45] [Render thread/INFO]: EFX Extension recognized
+[17:13:45] [Render thread/INFO]: Max auxiliary sends: 4
+[17:13:45] [Render thread/INFO]: Aux slot 1 created
+[17:13:45] [Render thread/INFO]: Aux slot 2 created
+[17:13:45] [Render thread/INFO]: Aux slot 3 created
+[17:13:45] [Render thread/INFO]: Aux slot 4 created
+[17:13:45] [Render thread/INFO]: EFX ready
+[17:13:45] [Render thread/INFO]: Sound engine started
+[17:13:45] [Render thread/INFO]: Created: 4096x4096x1 minecraft:textures/atlas/blocks.png-atlas
+[17:13:45] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
+[17:13:45] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:13:45] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:13:45] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:13:45] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:13:45] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:13:45] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/diag" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:45] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/ascending" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:45] [Render thread/WARN]: Model "railways:block/smokestack/block_woodburner" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:45] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/ascending" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:45] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/cross_d1_zo" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:46] [Render thread/WARN]: Model "railways:block/smokestack/block_caboosestyle" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:46] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/diag_2" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:46] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/ascending" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:46] [Render thread/WARN]: Model "railways:block/smokestack/block_caboosestyle" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:46] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/cross_diag" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:46] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/ascending" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:46] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/cross_d1_xo" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:46] [Render thread/WARN]: Unable to bake model: 'ducky-periphs:conjured_ducky_block#': java.lang.RuntimeException: Unknown property 'facing' on 'Block{ducky-periphs:conjured_ducky_block}'
+[17:13:47] [Render thread/WARN]: Model "railways:item/dev_caps/tiestoettoet" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:47] [Render thread/WARN]: Model "railways:block/bogey/monorail/wheel" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:47] [Render thread/WARN]: Model "railways:smokestack_caboosestyle#inventory" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:47] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/cross_d2_xo" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:47] [Render thread/WARN]: Model "railways:block/monorail/monorail/static_blocks/cross_d2_zo" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:48] [Render thread/WARN]: Model "railways:block/bogey/monorail/frame" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:48] [Render thread/WARN]: Model "railways:smokestack_woodburner#inventory" is using the deprecated "flip-v" field in its OBJ model instead of "flip_v". This field will be removed in 1.20.
+[17:13:48] [Render thread/INFO]: [STDOUT]: WeaponMaster Feature is OK!
+[17:13:48] [Render thread/INFO]: [STDOUT]: WeaponMaster Feature is OK!
+[17:13:48] [Render thread/INFO]: [STDOUT]: WeaponMaster Feature is OK!
+[17:13:48] [Render thread/INFO]: [STDOUT]: WeaponMaster Feature is OK!
+[17:13:48] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17:13:48] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[17:13:48] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[17:13:48] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:13:48] [Render thread/INFO]: Reloading grave model (client)
+[17:13:48] [Render thread/INFO]: Reloading dimension name overrides for grave GUI
+[17:13:49] [Render thread/INFO]: Loaded all shader sources.
+[17:13:49] [Render thread/INFO]: This line is printed by the mod mixin!
+[17:13:49] [Render thread/INFO]: This line is printed by the mod mixin!
+[17:13:49] [Render thread/INFO]: This line is printed by the mod mixin!
+[17:13:49] [Render thread/INFO]: This line is printed by the mod mixin!
+[17:15:03] [Render thread/INFO]: Stopping!
+[17:15:03] [Render thread/INFO]: Shutting down map thread

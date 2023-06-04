@@ -1,0 +1,129 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 30, 2023, 12:05:23 PM
+
+#magistuarmory:pattern_item/steel_kiteshield
+
+#magistuarmory:pattern_item/snake
+- magistuarmory:snake (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/gold_kiteshield
+
+#minecraft:pattern_item/creeper
+- minecraft:creeper (from Default)
+
+#magistuarmory:pattern_item/lion1
+- magistuarmory:lion1 (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/lion2
+- magistuarmory:lion2 (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/dragon
+- magistuarmory:dragon (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/orthodox_cross
+- magistuarmory:orthodox_cross (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/tower
+- magistuarmory:tower (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/copper_kiteshield
+
+#magistuarmory:pattern_item/bull
+- magistuarmory:bull (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/apostolic_cross
+- magistuarmory:apostolic_cross (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/eagle
+- magistuarmory:eagle (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/bowl
+- magistuarmory:bowl (from Epic Knights Mod)
+
+#minecraft:pattern_item/piglin
+- minecraft:piglin (from Default)
+
+#magistuarmory:pattern_item/sun
+- magistuarmory:sun (from Epic Knights Mod)
+
+#minecraft:pattern_item/globe
+- minecraft:globe (from Default)
+
+#magistuarmory:pattern_item/two-headed_eagle
+- magistuarmory:two-headed_eagle (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/netherite_kiteshield_smithing
+
+#minecraft:pattern_item/mojang
+- minecraft:mojang (from Default)
+
+#magistuarmory:pattern_item/tree
+- magistuarmory:tree (from Epic Knights Mod)
+
+#minecraft:no_item_required
+- minecraft:square_bottom_left (from Default)
+- minecraft:square_bottom_right (from Default)
+- minecraft:square_top_left (from Default)
+- minecraft:square_top_right (from Default)
+- minecraft:stripe_bottom (from Default)
+- minecraft:stripe_top (from Default)
+- minecraft:stripe_left (from Default)
+- minecraft:stripe_right (from Default)
+- minecraft:stripe_center (from Default)
+- minecraft:stripe_middle (from Default)
+- minecraft:stripe_downright (from Default)
+- minecraft:stripe_downleft (from Default)
+- minecraft:small_stripes (from Default)
+- minecraft:cross (from Default)
+- minecraft:straight_cross (from Default)
+- minecraft:triangle_bottom (from Default)
+- minecraft:triangle_top (from Default)
+- minecraft:triangles_bottom (from Default)
+- minecraft:triangles_top (from Default)
+- minecraft:diagonal_left (from Default)
+- minecraft:diagonal_up_right (from Default)
+- minecraft:diagonal_up_left (from Default)
+- minecraft:diagonal_right (from Default)
+- minecraft:circle (from Default)
+- minecraft:rhombus (from Default)
+- minecraft:half_vertical (from Default)
+- minecraft:half_horizontal (from Default)
+- minecraft:half_vertical_right (from Default)
+- minecraft:half_horizontal_bottom (from Default)
+- minecraft:border (from Default)
+- minecraft:curly_border (from Default)
+- minecraft:gradient (from Default)
+- minecraft:gradient_up (from Default)
+- minecraft:bricks (from Default)
+
+#magistuarmory:pattern_item/diamond_kiteshield
+
+#magistuarmory:pattern_item/silver_kiteshield
+
+#magistuarmory:pattern_item/swords
+- magistuarmory:swords (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/chess
+- magistuarmory:chess (from Epic Knights Mod)
+
+#minecraft:pattern_item/skull
+- minecraft:skull (from Default)
+
+#magistuarmory:pattern_item/wood_kiteshield
+
+#magistuarmory:pattern_item/lily
+- magistuarmory:lily (from Epic Knights Mod)
+
+#minecraft:pattern_item/flower
+- minecraft:flower (from Default)
+
+#magistuarmory:pattern_item/iron_kiteshield
+
+#magistuarmory:pattern_item/tin_kiteshield
+
+#magistuarmory:pattern_item/horse
+- magistuarmory:horse (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/crusader_cross
+- magistuarmory:crusader_cross (from Epic Knights Mod)
+
+#magistuarmory:pattern_item/bronze_kiteshield

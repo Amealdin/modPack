@@ -1,0 +1,141 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 30, 2023, 12:05:23 PM
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold (from Default)
+- minecraft:ocean_ruin_warm (from Default)
+
+#minecraft:mineshaft
+- minecraft:mineshaft (from Default)
+- minecraft:mineshaft_mesa (from Default)
+- bettermineshafts:mineshaft_acacia (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_desert (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_ice (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_jungle (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_lush (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_mesa (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_mushroom (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_oak (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_red_desert (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_spruce (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_spruce_snowy (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_overgrown (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_dripstone (from YUNG's Better Mineshafts)
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion (from Default)
+
+#minecraft:cats_spawn_in
+- minecraft:swamp_hut (from Default)
+
+#minecraft:cats_spawn_as_black
+- minecraft:swamp_hut (from Default)
+
+#betterdungeons:better_dungeons
+- betterdungeons:small_dungeon (from YUNG's Better Dungeons)
+- betterdungeons:spider_dungeon (from YUNG's Better Dungeons)
+- betterdungeons:skeleton_dungeon (from YUNG's Better Dungeons)
+- betterdungeons:zombie_dungeon (from YUNG's Better Dungeons)
+- betterdungeons:small_nether_dungeon (from YUNG's Better Dungeons)
+
+#imst:rare
+- imst:flowerdome (from Immersive structures)
+- imst:pyramid (from Immersive structures)
+- imst:el_dorado (from Immersive structures)
+- imst:dark_tower (from Immersive structures)
+- imst:airship (from Immersive structures)
+- imst:caravan (from Immersive structures)
+- imst:observatory (from Immersive structures)
+- imst:fossil_swamp (from Immersive structures)
+- imst:alpine_house (from Immersive structures)
+
+#bettermineshafts:better_mineshafts
+- bettermineshafts:mineshaft_acacia (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_desert (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_dripstone (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_ice (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_jungle (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_lush (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_mesa (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_mushroom (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_oak (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_overgrown (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_red_desert (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_spruce (from YUNG's Better Mineshafts)
+- bettermineshafts:mineshaft_spruce_snowy (from YUNG's Better Mineshafts)
+
+#betterfortresses:better_fortresses
+- betterfortresses:fortress (from YUNG's Better Nether Fortresses)
+
+#minecraft:shipwreck
+- minecraft:shipwreck (from Default)
+- minecraft:shipwreck_beached (from Default)
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument (from Default)
+
+#imst:lumberjack
+- imst:lumberjack/oak_hut (from Immersive structures)
+- imst:lumberjack/birch_hut (from Immersive structures)
+- imst:lumberjack/spruce_hut (from Immersive structures)
+- imst:lumberjack/jungle_hut (from Immersive structures)
+- imst:lumberjack/acacia_hut (from Immersive structures)
+- imst:lumberjack/dark_oak_hut (from Immersive structures)
+- imst:lumberjack/mangrove_hut (from Immersive structures)
+
+#morevillagers:on_fortress_explorer_maps
+- #betterfortresses:better_fortresses (from YUNG's Better Nether Fortresses)
+
+#betterstrongholds:better_strongholds
+- betterstrongholds:stronghold (from YUNG's Better Strongholds)
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure (from Default)
+
+#morevillagers:on_mineshaft_explorer_maps
+- #bettermineshafts:better_mineshafts (from YUNG's Better Mineshafts)
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold (from Default)
+- betterstrongholds:stronghold (from YUNG's Better Strongholds)
+
+#imst:all_structures
+- #imst:common (from Immersive structures)
+- #imst:rare (from Immersive structures)
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert (from Default)
+- minecraft:ruined_portal_jungle (from Default)
+- minecraft:ruined_portal_mountain (from Default)
+- minecraft:ruined_portal_nether (from Default)
+- minecraft:ruined_portal_ocean (from Default)
+- minecraft:ruined_portal (from Default)
+- minecraft:ruined_portal_swamp (from Default)
+
+#imst:common
+- imst:beehouse (from Immersive structures)
+- #imst:lumberjack (from Immersive structures)
+- imst:sunflower_farm (from Immersive structures)
+- imst:terralith/yurt (from Immersive structures)
+- imst:cactus_farm (from Immersive structures)
+- imst:desert_well (from Immersive structures)
+- imst:bandit_camp (from Immersive structures)
+- imst:train_station (from Immersive structures)
+- imst:cocoa_farm (from Immersive structures)
+- imst:berry_house (from Immersive structures)
+- imst:balloon (from Immersive structures)
+- imst:observatory (from Immersive structures)
+- imst:igloo (from Immersive structures)
+- imst:witch_hut (from Immersive structures)
+- imst:mountain_camp (from Immersive structures)
+- imst:quarry (from Immersive structures)
+
+#minecraft:village
+- minecraft:village_plains (from Default)
+- minecraft:village_desert (from Default)
+- minecraft:village_savanna (from Default)
+- minecraft:village_snowy (from Default)
+- minecraft:village_taiga (from Default)
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin (from Default)
+- #minecraft:shipwreck (from Default)

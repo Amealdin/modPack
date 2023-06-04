@@ -1,0 +1,87 @@
+{
+  "moduleList": [
+    {
+      "name": "icon",
+      "display": true,
+      "context": "icon.png"
+    },
+    {
+      "name": "text",
+      "display": true,
+      "context": "Amealdin"
+    },
+    {
+      "name": "mods",
+      "display": false
+    },
+    {
+      "name": "clock",
+      "display": false,
+      "context": "HH:mm:ss"
+    },
+    {
+      "name": "session",
+      "display": true
+    },
+    {
+      "name": "day",
+      "display": true
+    },
+    {
+      "name": "time",
+      "display": true
+    },
+    {
+      "name": "weather",
+      "display": true
+    },
+    {
+      "name": "fps",
+      "display": true
+    },
+    {
+      "name": "ping",
+      "display": true
+    },
+    {
+      "name": "memory",
+      "display": true
+    },
+    {
+      "name": "dimension",
+      "display": true
+    },
+    {
+      "name": "biome",
+      "display": true
+    },
+    {
+      "name": "position",
+      "display": true
+    },
+    {
+      "name": "chunk",
+      "display": true
+    },
+    {
+      "name": "facing",
+      "display": true
+    },
+    {
+      "name": "looking_at",
+      "display": false
+    },
+    {
+      "name": "property",
+      "display": true
+    },
+    {
+      "name": "target",
+      "display": false
+    },
+    {
+      "name": "target_health",
+      "display": false
+    }
+  ]
+}
