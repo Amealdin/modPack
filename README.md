@@ -19,7 +19,4 @@ Welcome to the Amealdin Modpack, an extraordinary Minecraft experience that take
 Join our vibrant community on Discord to connect with fellow Amealdin adventurers, share your creations, and stay updated with the latest modpack developments.
 
 ## Contribute
-We welcome contributions to the Amealdin Modpack. If you have suggestions, bug reports, or would like to contribute to the development, please visit our GitHub repository.
-
-## License
-The Amealdin Modpack is released under the [MIT License](https://opensource.org/licenses/MIT). Please review the license before using the modpack.
+We welcome contributions to the Amealdin Modpack. If you have suggestions, bug reports, or would like to contribute to the development, please visit our [Discord](https://discord.gg/GWFJm7XDFn).
